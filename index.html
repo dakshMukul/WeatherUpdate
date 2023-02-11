@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="search-box">
+        <input type="text" id="input-box" placeholder="Search your city...">
+    </div>
+
+    <div class="main-container">
+
+        <div class="city-date">
+            <h1 class="city">New Delhi, India</h1>
+            <p class="date">Thursday 4 March, 2023</p>
+        </div>
+        <div class="temp-details">
+            <div class="sub-temp temp-type">
+                <div id="weather-icon"><img src="http://openweathermap.org/img/wn/10d.png" width="50px" height="50px" alt="">
+                    </div>
+                <p>Sunny</p>
+            </div>
+
+            <div class="sub-temp">
+                <h1 id="temp-deg">15&deg;C</h1>
+            </div>
+
+            <div class="sub-temp">
+                <div class=" temp-min">
+                    <p> 18&deg;C</p>
+                </div>
+                <hr>
+                <div class="temp-max">
+                    <p> 20&deg;C</p>
+                </div>
+            </div>
+        </div>
+        <div class="weather-details">
+            <div class="sab-weather ">
+                <p>WIND</p>
+                <h3 id="wind">2.06 mph</h3>
+            </div>
+            <div class="sab-weather ">
+                <p>HUMIDITY</p>
+                <h3 id="humidity">33%</h3>
+            </div>
+            <div class="sab-weather ">
+                <p>PRESSURE</p>
+                <h3 id="pressure">1015 in</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

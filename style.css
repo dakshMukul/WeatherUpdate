@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/birds-in-flight-5366034.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    transition: .7s;
+}
+
+body h1, h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body p{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*---------------------Search box css--------------------------*/
+.search-box {
+    width: 50vw;
+    min-width: 10vw;
+    margin-top: 10vh;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px 0 10px 0;
+    border-bottom: 4px solid rgb(242, 136, 6);
+    padding: 0 10px;
+    background-color: rgb(88, 85, 85);
+    transition: .5s;
+
+
+}
+
+.search-box input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.search-box:hover {
+    background-color: rgb(100, 88, 88);
+
+}
+/*-------------------main container css------------------*/
+
+.main-container {
+    max-width: 50vw;
+    min-width: 10vw;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.523);
+    color: white;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1rem
+}
+
+.city-date {
+    text-align: center;
+}
+
+.temp-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    /* flex-direction: column;
+    text-align: center;
+    flex: 1 1 100% ; */
+}
+
+.temp-details h1 {
+    font-size: 4rem;
+}
+
+.sub-temp {
+    margin: 20px
+}
+
+.weather-details {
+    display: flex;
+}
+
+.sab-weather {
+    margin: auto;
+    text-align: center;
+}
