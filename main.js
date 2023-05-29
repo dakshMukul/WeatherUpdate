@@ -78,7 +78,7 @@ function showWeatherReport(weather) {
         bg.style.backgroundImage = "url('img/clear.jpg')";
     }else if (weatherType.textContent == 'Haze') {
         bg.style.backgroundImage = "url('img/haze.jpg')";
-    } else if (weatherType.textContent == 'Rainy') {
+    } else if (weatherType.textContent == 'Rain') {
         bg.style.backgroundImage = "url('img/rainy.jpg')";
     } else if (weatherType.textContent == 'Snow') {
         bg.style.backgroundImage = "url('img/snow.jpg')";
