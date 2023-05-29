@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('img/birds-in-flight-5366034.jpg');
+    background-color: rgb(9, 9, 74) ;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -21,18 +21,16 @@ body p{
 }
 /*---------------------Search box css--------------------------*/
 .search-box {
-    width: 50vw;
-    min-width: 10vw;
+    width: 70vw;
+    min-width: 5vw;
     margin-top: 10vh;
     margin-left: 50%;
     transform: translate(-50%);
     border-radius: 10px 0 10px 0;
-    border-bottom: 4px solid rgb(242, 136, 6);
+    border-bottom: 4px solid rgb(255, 255, 255);
     padding: 0 10px;
-    background-color: rgb(88, 85, 85);
+    background-color: rgba(88, 85, 85, 0.625);
     transition: .5s;
-
-
 }
 
 .search-box input {
@@ -52,14 +50,18 @@ body p{
 /*-------------------main container css------------------*/
 
 .main-container {
-    max-width: 50vw;
-    min-width: 10vw;
+    width: 70vw;
+    height: 60vh;
+    min-width: 5vw;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.523);
     color: white;
     margin: auto;
     padding: 10px;
-    margin-top: 1rem
+    margin-top: 1rem;
+    background-image: url("./img/clear.jpg");
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
 }
 
 .city-date {

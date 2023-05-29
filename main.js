@@ -1,5 +1,7 @@
 // https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=4c153e3b4639b91c10cfedbb3c9ddc0d
 
+const bg = document.querySelector(".main-container");
+
 const weatherApi = {
     key: "4c153e3b4639b91c10cfedbb3c9ddc0d",
     baseUrl: "https://api.openweathermap.org/data/2.5/weather"
@@ -69,20 +71,20 @@ function showWeatherReport(weather) {
 
     // Changin the backgorund color dynamically
     if (weatherType.textContent == 'Smoke') {
-        document.body.style.backgroundImage = "url('img/fog.jpg')";
+        bg.style.backgroundImage ="url('img/fog.jpg')";
     } else if (weatherType.textContent == 'Clouds') {
-        document.body.style.backgroundImage = "url('img/cloudy.jpg')";
+        bg.style.backgroundImage = "url('img/cloudy.jpg')";
     } else if (weatherType.textContent == 'Clear') {
-        document.body.style.backgroundImage = "url('img/clear.jpg')";
-    } else if (weatherType.textContent == 'Haze') {
-        document.body.style.backgroundImage = "url('img/haze.jpg')";
+        bg.style.backgroundImage = "url('img/clear.jpg')";
+    }else if (weatherType.textContent == 'Haze') {
+        bg.style.backgroundImage = "url('img/haze.jpg')";
     } else if (weatherType.textContent == 'Rainy') {
-        document.body.style.backgroundImage = "url('img/rainy.jpg')";
+        bg.style.backgroundImage = "url('img/rainy.jpg')";
     } else if (weatherType.textContent == 'Snow') {
-        document.body.style.backgroundImage = "url('img/snow.jpg')";
+        bg.style.backgroundImage = "url('img/snow.jpg')";
     } else if (weatherType.textContent == 'Sunny') {
-        document.body.style.backgroundImage = "url('img/sunny.jpg')";
-    }
+        bg.style.backgroundImage = "url('img/sunny.jpg')";
+     }
 
 
     // Date manage
