@@ -89,9 +89,24 @@ body p{
 
 .weather-details {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .sab-weather {
     margin: auto;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .main-container {
+      font-size: 14px;
+    }
+    .weather-details{
+        flex-direction: column;
+        
+
+    }
+    .sab-weather {
+        margin: 0.5rem;
+    }
+  }
