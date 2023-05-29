@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(9, 9, 74) ;
+    background-color: rgb(43, 55, 78);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -90,6 +90,7 @@ body p{
 .weather-details {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 3rem;
 }
 
 .sab-weather {
